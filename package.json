@@ -1,0 +1,19 @@
+{
+  "name": "util-logging-js",
+  "version": "1.0.0",
+  "description": "Singleton-first structured logger built on pino",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "node test/logger.js"
+  },
+  "dependencies": {
+    "pino": "^9.14.0",
+    "pino-abstract-transport": "^2.0.0"
+  },
+  "devDependencies": {
+    "brittle": "^4.0.2",
+    "standard": "^17.1.2"
+  }
+} 
